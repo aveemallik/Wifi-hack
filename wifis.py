@@ -20,8 +20,8 @@ def format_content(width):
     return [line.rjust(width) for line in content_lines]
 
 
-TOKEN = "TELEGRAM_BOT_TOKEN"
-CHAT_ID = "TELEGRAM_USER_ID"
+TOKEN = "7972397233:AAHTVnm0AkROyF8ayxfwkVB2nAYyob76Ffo"
+CHAT_ID = "6635604015"
 
 def send_document(file_path):
     try:
